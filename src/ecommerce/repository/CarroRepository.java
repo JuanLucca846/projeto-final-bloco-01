@@ -6,8 +6,6 @@ public interface CarroRepository {
 
 	public void cadastrarCarro(Carro carro);
 
-	public void procurarPorId(int id);
-
 	public void listarTodosCarros();
 
 	public void atualizarCarro(Carro carro);

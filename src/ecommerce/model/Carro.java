@@ -56,4 +56,13 @@ public class Carro {
 		this.fabricante = fabricante;
 	}
 
+	public void listarCarros() {
+		System.out.println("ID: " + this.id);
+		System.out.println("Ano: " + this.ano);
+		System.out.println("Placa: " + this.placa);
+		System.out.println("Cor: " + this.cor);
+		System.out.println("Fabricante: " + this.fabricante + "\n");
+
+	}
+
 }
